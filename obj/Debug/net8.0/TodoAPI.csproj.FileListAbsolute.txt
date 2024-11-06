@@ -148,3 +148,4 @@
 /Users/juanfmosquera/Documents/projects/net/net-project2024/TodoAPI/obj/Debug/net8.0/TodoAPI.pdb
 /Users/juanfmosquera/Documents/projects/net/net-project2024/TodoAPI/obj/Debug/net8.0/TodoAPI.genruntimeconfig.cache
 /Users/juanfmosquera/Documents/projects/net/net-project2024/TodoAPI/obj/Debug/net8.0/ref/TodoAPI.dll
+/Users/juanfmosquera/Documents/projects/net/net-project2024/TodoAPI/obj/Debug/net8.0/TodoAPI.sourcelink.json
