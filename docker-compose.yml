@@ -1,0 +1,16 @@
+﻿services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver-express
+    platform: linux/amd64
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "x2K/l!D}28cv"
+      MSSQL_PID: "Express"
+    ports:
+      - "1433:1433"
+  todoapi:
+    image: todoapi
+    build:
+      context: .
+      dockerfile: Dockerfile
